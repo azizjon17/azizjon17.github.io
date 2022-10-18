@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,300;0,500;0,700;1,400 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+nav {
+  justify-content: space-around;
+  padding: 10px 0;
+  align-items: center;
+  max-width: 1140px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+header .navbutton {
+  border-bottom: 1px solid rgb(231, 92, 11);
+  box-shadow: 0px 10px 30px rgba(231, 199, 85, 0.25);
+}
+
+header nav ul {
+  width: 550px;
+}
+header nav ul li a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(31, 46, 53, 0.8);
+}
+header nav ul li a:hover {
+  color: #e3181f;
+  transition: 0.4s;
+}
+header nav ul li select:hover {
+  color: #d01b21;
+  transition: 0.4s;
+}
+header nav ul li a select {
+  border: none;
+}
+.logo {
+  margin-left: -65px;
+}
+.icon {
+  width: 100px;
+}
+.icon i:hover{
+  color: #f16f74;
+  transition: 0.4s;
+}
+.menu {
+  padding-top: 80px;
+  width: 1140px;
+  margin: auto;
+}
+.item {
+  margin: auto;
+}
+.menu .item .text h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133.69%;
+  color: #0a0a0a;
+}
+span {
+  color: #fd040c;
+}
+.menu .item .text p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #080808;
+}
+.menu .item .text button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  background: #ff7801;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  margin-left: 30px;
+}
+main {
+  margin-top: 80px;
+  width: 100%;
+  height: 500px;
+  background:white;
+}
+main .block {
+  width: 1140px;
+  margin: auto;
+}
+main .block h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #060606;
+}
+main .block .box1 {
+  align-items: center;
+  height: 310px;
+  margin-top: 80px;
+}
+section {
+  width: 100%;
+  background: white;
+}
+section .blok {
+  width: 1140px;
+  margin: auto;
+}
+section .blok h3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #080808;
+}
+section .blok .div .box_1 h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 133.69%;
+  color: #ff030b;
+}
+section .blok .div .box_1 p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #070707;
+}
+section .blok .div .box_1 button {
+  background: #ff7801;
+  box-shadow: 1px 1px 2px rgba(237, 113, 113, 0.25);
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144.69%;
+  padding: 8px;
+  border: none;
+  color: #FFFFFF;
+}
+section .blok .div1 {
+  margin-top: 80px;
+  gap: 40px;
+}
+section .blok .div1 .b {
+  padding-top: 25px;
+}
+section .blok .div1 p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #060606;
+}
+
+section .blok .div1 .a h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #090909;
+}
+
+section .blok .div1 .b h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #0a0a0a;
+}
+footer {
+  width: 100%;
+  background: #fd0109;
+}
+
+footer p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+ 
+  text-align: center;
+  color: #FFFFFF;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.df {
+  display: flex;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.sa {
+  justify-content: space-around;
+}
+
+.nav {
+  width: 100%;
+}

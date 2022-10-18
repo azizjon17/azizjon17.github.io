@@ -1,0 +1,144 @@
+*{
+  padding:0;
+margin: 0;
+list-style: none;
+text-decoration: none;
+}
+.main h1{
+  text-align: center;
+  background-color: rgb(223, 235, 240);
+}
+section {
+  background-color: #e7f5f8;
+  max-width: 1590px;
+  height: 50vh;
+  margin: auto;
+ margin-top: -40px;
+  height: auto;
+}
+
+.bir {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  margin-right: 150px;
+}
+
+.uchh {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 15px 0;
+  margin: auto;
+  width: 100%; 
+  height:550px;
+  
+ 
+}
+.tort {
+  display: block;
+  background-color: white;
+  width: 450px;
+  height: 65vh;
+  border-radius: 10px;
+  border: 1px solid darkblue;
+}
+.tort img{
+  border-radius: 20px;
+  border: 1px solid darkblue;
+}
+.tort h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  color: black;
+  margin-left: 20px;
+}
+.tort p {
+  font-size: 20px;
+  text-align: start;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+.asss{
+  background-color: rgb(223, 235, 240);
+  width: 100%;
+
+}
+.besh {
+  display: block;
+  background-color: #ffffff;
+  border: 1px solid darkblue;
+  width: 450px;
+  height: 45vh;
+  margin-top: 1px;
+  border-radius: 10px;
+}
+.besh h2 {
+  margin-top: 8px;
+  font-size: 30px;
+  color: black;
+  margin-left: 20px;
+}
+.besh p {
+  font-size: 20px;
+  text-align: start;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+.olti{
+  margin-top: 20px;
+  width: 100%;
+}
+.olti h2{
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: center;
+
+}
+.ass1{
+  display: flex;
+  margin-left: 50px;
+  justify-content: flex-start;
+}
+.blok1 h2{
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+.mayda1{
+  display: flex;
+}
+.mayda1 button{
+  font-family: Heebo;
+  width: 90px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 15px;  
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: darkblue;
+  color: white;
+  margin-left: 10px;
+}
+.mayda1 h4{
+  margin-top: 10px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+.ass1{
+
+  margin-left: 150px;
+}

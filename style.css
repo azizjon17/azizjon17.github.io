@@ -1,0 +1,309 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    max-width: 80%;
+    margin: auto;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    flex-wrap: wrap;
+}
+header .logo{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+}
+.logo img{
+  margin-left: 60px;
+    width: 150px;
+    height: 100px;
+    margin-top: -30px;
+}
+header nav ul li a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+}
+header .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header .rasm{   
+    width: 343px;
+    height: 343px;
+    margin-top: 120px;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    
+}
+header h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-top: 120px;
+}
+header p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-top: 40px;
+}
+header button{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    background: #FF6464;
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding: 9px 21px;
+    border: none;
+    margin-top: 38px;
+}
+
+
+section {
+    background-color: #e7f5f8;
+    max-width: 1590px;
+    height: 50vh;
+    margin: auto;
+    margin-top: 250px;
+    height: auto;
+  }
+  .bir {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    margin-right: 150px;
+  }
+
+  .uchh {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 15px 0;
+    margin: auto;
+    width: 100%; 
+    height:550px;
+    
+   
+  }
+  .tort {
+    display: block;
+    background-color: white;
+    width: 450px;
+    height: 65vh;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+  }
+  .tort img{
+    border-radius: 20px;
+    border: 1px solid darkblue;
+  }
+  .tort h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+  }
+  .tort p {
+    font-size: 20px;
+    text-align: start;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+  .asss{
+    background-color: rgb(223, 235, 240);
+    width: 100%;
+
+  }
+  .besh {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid darkblue;
+    width: 450px;
+    height: 45vh;
+    margin-top: 1px;
+    border-radius: 10px;
+  }
+  .besh h2 {
+    margin-top: 8px;
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+  }
+  .besh p {
+    font-size: 20px;
+    text-align: start;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+  .olti{
+    margin-top: 200px;
+    width: 100%;
+  }
+  .olti h1{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+
+  }
+  .ass1{
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+}
+.blok1 h2{
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+.mayda1{
+    display: flex;
+}
+.mayda1 button{
+    font-family: Heebo;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 15px;  
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: darkblue;
+    color: white;
+    margin-left: 10px;
+}
+.mayda1 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+.ass1{
+ 
+    margin-left: 150px;
+}
+.blok1 p{
+    width: 500px;
+    margin-left: 10px;
+}
+.rasm2{
+  background-color: rgb(223, 235, 240);
+  border-radius: 15px;
+  width: 250px;
+
+}
+.rasm2 a img{
+margin-left: 10px;
+}
+.rasm3{
+  background-color: rgb(223, 235, 240);
+  border-radius: 15px;
+  width: 250px;
+  margin-top: 10px;
+
+}
+.rasm3 a img{
+margin-left: 50px;
+margin-top: 10px;
+}
+.rasm4{
+  background-color: rgb(223, 235, 240);
+  border-radius: 15px;
+  width: 250px;
+  margin-top: 10px;
+
+}
+.rasm4 a img{
+margin-left: 50px;
+margin-top: 10px;
+}
+.belgi{
+    margin-top: 100px;
+    text-align: center;
+}
+.textcha h3{
+     margin-right:30px;                                                                                                                          
+ text-align: center;
+
+}
+
+  @media (max-width: 968px) {
+    header .menu{
+        flex-direction: column-reverse;
+    }
+    header h1{
+        text-align: center;
+    }
+    header p{
+        text-align: center;
+    }
+    header button{
+        display: block;
+        margin: 40px auto 0;
+    }
+    header .rasm{
+        margin-top: 40px;
+    }
+    header nav ul{
+        display: none;
+    }
+    header nav i{
+        display: block !important;
+        font-size: 25px;
+    }
+   section .asss .uchh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+   }
+   section .asss .uchh .tort{
+    margin-top: 40px;
+   }
+
+}
